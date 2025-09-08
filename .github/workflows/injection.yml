@@ -1,0 +1,6 @@
+jobs:
+  test-injection:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Name of step is ${{github.ref_name}}
+      run: echo "Running step ${{github.ref_nam}}
