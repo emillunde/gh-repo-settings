@@ -1,3 +1,5 @@
+on: push
+
 jobs:
   test-injection:
     runs-on: ubuntu-latest
